@@ -64,4 +64,4 @@ def update_graph(selected_cities):
 
 # Run the Dashboard
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(host='0.0.0.0', port=3000, debug=True)
